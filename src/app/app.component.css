@@ -1,0 +1,45 @@
+.header
+ { display: flex;
+     justify-content: space-between;
+      padding: 1rem;
+       background: #fff; }
+
+
+.nav-links a { margin: 0 1rem;
+     text-decoration: none;
+      color: #333;
+    padding: 10px; }
+    nav a {
+  padding: 0.5rem 1rem;  /* espaço interno dos links */
+  margin: 0 0.5rem;       /* espaço entre os links */
+  line-height: 1.5;       /* altura da linha */
+  text-decoration: none;  /* sem sublinhado */
+}
+.nav-links a:hover { background: #f0f0f0;
+     border-radius: 4px; }
+
+.hero
+ { text-align: center; 
+    background: #738aa0;
+     color: rgb(17, 14, 14);
+      padding: 4rem 2rem; }
+
+
+
+
+.steps { display: flex;
+     justify-content: space-around;
+    
+     padding: 2rem; }
+
+
+.step { text-align: center; width: 20%; }
+
+
+
+
+.features { padding: 2rem; }
+
+
+
+.footer { text-align: center; padding: 1rem; background: #f5f5f5; }
