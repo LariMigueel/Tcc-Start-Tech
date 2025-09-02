@@ -1,7 +1,7 @@
 <app-default-login-layout
-    title="Sign in and start today!t"
-    primaryBtnText="Signup Now"
-    secondaryBtnText="Login Now"
+    title="Faça login e comece hoje mesmo!"
+    primaryBtnText="Inscreva-se Agora"
+    secondaryBtnText="Conecte-se Agora."
     (submit)="submit()"
     (navigate)="navigate()"
     [disablePrimaryBtn]="!signupForm.valid"
@@ -11,8 +11,8 @@
             formControlName="name"
             inputName="name"
             type="text"
-            label="Your name"
-            placeholder="John Doe"
+            label="Seu nome"
+            placeholder="Jonas Miranda"
         >
             <img src="/assets/svg/email-icon.svg"/>
         </app-primary-input>
@@ -21,7 +21,7 @@
             inputName="email"
             type="email"
             label="Email"
-            placeholder="johndoe@gmail.com"
+            placeholder="jonasmr@gmail.com"
         >
             <img src="/assets/svg/email-icon.svg"/>
         </app-primary-input>
@@ -29,7 +29,7 @@
             formControlName="password"
             inputName="password"
             type="password"
-            label="Your Password"
+            label="Sua senha"
         >
         <img src="/assets/svg/password-icon.svg"/>
     </app-primary-input>
@@ -37,7 +37,7 @@
         formControlName="passwordConfirm"
         inputName="passwordConfirm"
         type="password"
-        label="Confirm your Password"
+        label="Confirme sua senha"
     >
         <img src="/assets/svg/password-icon.svg"/>
     </app-primary-input>
